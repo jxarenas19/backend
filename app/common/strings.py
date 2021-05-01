@@ -1,0 +1,6 @@
+ELEMENT_INSERT = 'Elemento insertado correctamente'
+ELEMENT_UPDATE = 'Elemento modificado correctamente'
+ELEMENT_DELETE = 'Elemento eliminado correctamente'
+ELEMENT_DELETE_BACKGROUND = 'Elemento background correctamente'
+ERROR = 'Error'
+ELEMENT_NOT_EXIST = 'Elemento no existe'
