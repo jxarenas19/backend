@@ -1,7 +1,6 @@
 
 
 ## Despliegue
-Este microservicio depende de [kmodels](https://gitlab.com/manogroup/kiero/marketplace-services/kmodels) por este motivo al compilar. Es necesario pasar un [token de autorización](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html) para bajar el repositorio kmodels.
 
 En el directorio del proyecto ejecutar el siguiente comando para construir la imagen de docker:
 
