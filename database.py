@@ -11,7 +11,7 @@ class DBConnection:
     engine = None
 
     def __init__(self):
-        self.engine = create_engine(app_config[app_config['development']].SQLALCHEMY_DATABASE_URI, echo=True)
+        self.engine = create_engine(app_config['development'].SQLALCHEMY_DATABASE_URI, echo=True)
         Session = sessionmaker(bind=self.engine)
         self.session = Session()
 
