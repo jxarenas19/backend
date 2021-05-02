@@ -11,7 +11,7 @@ from config.config import app_config
 
 app = Flask(__name__)
 CORS(app, supports_credentials=True)
-app.config.from_object(app_config[os.getenv('FLASK_ENV')])
+app.config.from_object(app_config['development'])
 jwt = JWTManager(app)
 ma.init_app(app)
 # Captura todos los errores 404
